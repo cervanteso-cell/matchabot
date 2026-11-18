@@ -94,11 +94,11 @@ export function AuthPage({ mode }: { mode: AuthMode }) {
     sent || codeStep ? (
       <Trans>Check your email</Trans>
     ) : chooser ? (
-      <Trans>Welcome to Rakazo</Trans>
+      <Trans>Welcome to Matcha bot</Trans>
     ) : presented && mode === "in" ? (
       <Trans>Welcome back</Trans>
     ) : mode === "in" ? (
-      <Trans>Sign in to Rakazo</Trans>
+      <Trans>Sign in to Matcha bot</Trans>
     ) : mode === "up" ? (
       <Trans>Create your account</Trans>
     ) : (
