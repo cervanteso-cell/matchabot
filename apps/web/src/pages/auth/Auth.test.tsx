@@ -32,7 +32,7 @@ vi.mock("@rakazo/ui-web", () => ({
       {children}
     </button>
   ),
-  LogoAvatar: () => <svg aria-hidden="true" data-rakazo-logo="" />,
+  // BrandGlyph is not mocked; LogoAvatar is unused on auth after pass 3.
   Input: (props: React.ComponentProps<"input">) => <input {...props} />,
   InputOTP: ({
     maxLength,
@@ -209,9 +209,9 @@ it("shows a configured provider beside the password form and hides the rest", as
   expect(apple.querySelector("svg")).not.toBeNull();
   expect(emailChoice.dataset.variant).toBe("outline");
   expect(emailChoice.className).toContain("w-full");
-  expect(host.textContent).toContain("Welcome to Rakazo");
+  expect(host.textContent).toContain("Welcome to Matcha bot");
   expect(host.textContent).not.toContain("account?");
-  expect(host.querySelector("[data-rakazo-logo]")).not.toBeNull();
+  expect(host.querySelector("[data-matcha-bot-glyph]")).not.toBeNull();
   await act(async () => google.click());
   expect(authClient.signIn.social).toHaveBeenCalledWith(
     expect.objectContaining({ provider: "google" }),
