@@ -3,7 +3,7 @@ export const HE_MESSAGES: Record<string, string> = {
   "Check for Updates…": "בדיקת עדכונים…",
   "Computer Access…": "גישה למחשב…",
   "Revoke Local Computer Access": "ביטול הגישה למחשב המקומי",
-  "Change Rakazo Server…": "החלפת שרת Rakazo…",
+  "Change Matcha bot Server…": "החלפת שרת Matcha bot…",
   "Hide {name}": "הסתרת {name}",
   "Hide Others": "הסתרת אחרים",
   "Show All": "הצגת הכל",
@@ -35,22 +35,22 @@ export const HE_MESSAGES: Record<string, string> = {
   Close: "סגירה",
   "Close Window": "סגירת החלון",
   "Bring All to Front": "הבאת הכל לחזית",
-  "Rakazo {version} is ready to install.": "Rakazo {version} מוכן להתקנה.",
+  "Matcha bot {version} is ready to install.": "Matcha bot {version} מוכן להתקנה.",
   Restart: "הפעלה מחדש",
   Later: "אחר כך",
   "Could not install the update.": "לא ניתן היה להתקין את העדכון.",
   "Could not check for updates.": "לא ניתן היה לבדוק אם יש עדכונים.",
-  "Rakazo is up to date.": "Rakazo מעודכן.",
+  "Matcha bot is up to date.": "Matcha bot מעודכן.",
   "Version {version}": "גרסה {version}",
   "Automatic updates are turned off for this install.": "העדכונים האוטומטיים כבויים בהתקנה הזו.",
   "Automatic updates only run in an installed build.": "עדכונים אוטומטיים פועלים רק בגרסה מותקנת.",
   "No desktop releases are published for this build yet.":
     "עדיין לא פורסמו גרסאות שולחן עבודה עבור ה-build הזה.",
-  "Move Rakazo to Applications to install updates.":
-    "יש להעביר את Rakazo לתיקיית ״יישומים״ כדי להתקין עדכונים.",
+  "Move Matcha bot to Applications to install updates.":
+    "יש להעביר את Matcha bot לתיקיית ״יישומים״ כדי להתקין עדכונים.",
   "Free up disk space to install updates.": "יש לפנות מקום בדיסק כדי להתקין עדכונים.",
-  "This update could not be verified. Reinstall Rakazo from a trusted download.":
-    "לא ניתן היה לאמת את העדכון הזה. יש להתקין מחדש את Rakazo מהורדה מהימנה.",
+  "This update could not be verified. Reinstall Matcha bot from a trusted download.":
+    "לא ניתן היה לאמת את העדכון הזה. יש להתקין מחדש את Matcha bot מהורדה מהימנה.",
   "The update could not be completed. Try again later.":
     "לא ניתן היה להשלים את העדכון. כדאי לנסות שוב מאוחר יותר.",
   "Could not reach the update server.": "לא ניתן היה להתחבר לשרת העדכונים.",
@@ -69,13 +69,13 @@ export const HE_MESSAGES: Record<string, string> = {
     "כבר מתבצע ניסיון התחברות. יש לבטל אותו ולנסות שוב.",
   "Could not open browser sign-in. Close other sign-in attempts and retry.":
     "לא ניתן היה לפתוח התחברות בדפדפן. יש לסגור ניסיונות התחברות אחרים ולנסות שוב.",
-  "Sign-in callback rejected. Return to Rakazo to retry.":
-    "תגובת ההתחברות נדחתה. יש לחזור ל-Rakazo כדי לנסות שוב.",
-  "You can close this tab and return to Rakazo.": "אפשר לסגור את הכרטיסייה הזו ולחזור ל-Rakazo.",
-  "Set up Rakazo": "הגדרת Rakazo",
-  "Quit Rakazo": "יציאה מ-Rakazo",
-  "Welcome to Rakazo": "ברוכים הבאים ל-Rakazo",
-  "Choose where Rakazo runs.": "בחרו איפה Rakazo יפעל.",
+  "Sign-in callback rejected. Return to Matcha bot to retry.":
+    "תגובת ההתחברות נדחתה. יש לחזור ל-Matcha bot כדי לנסות שוב.",
+  "You can close this tab and return to Matcha bot.": "אפשר לסגור את הכרטיסייה הזו ולחזור ל-Matcha bot.",
+  "Set up Matcha bot": "הגדרת Matcha bot",
+  "Quit Matcha bot": "יציאה מ-Matcha bot",
+  "Welcome to Matcha bot": "ברוכים הבאים ל-Matcha bot",
+  "Choose where Matcha bot runs.": "בחרו איפה Matcha bot יפעל.",
   Instance: "מופע",
   "This computer": "המחשב הזה",
   "Existing instance": "מופע קיים",
@@ -88,14 +88,14 @@ export const HE_MESSAGES: Record<string, string> = {
   Continue: "המשך",
   Retry: "ניסיון חוזר",
   "Getting ready…": "מתכוננים…",
-  "Downloading Rakazo…": "מוריד את Rakazo…",
-  "Starting Rakazo…": "מפעיל את Rakazo…",
+  "Downloading Matcha bot…": "מוריד את Matcha bot…",
+  "Starting Matcha bot…": "מפעיל את Matcha bot…",
   "Almost ready…": "כמעט מוכן…",
-  "Rakazo is ready.": "Rakazo מוכן.",
+  "Matcha bot is ready.": "Matcha bot מוכן.",
   "{size} downloaded": "הורדו {size}",
   "Connecting…": "מתחבר…",
   "Checking…": "בודק…",
-  "Rakazo answered at {url}.": "Rakazo הגיב בכתובת {url}.",
+  "Matcha bot answered at {url}.": "Matcha bot הגיב בכתובת {url}.",
   "Enter a server address first.": "יש להזין קודם כתובת שרת.",
   "Could not save that address.": "לא ניתן היה לשמור את הכתובת הזו.",
   "Could not save that address. Try again.": "לא ניתן היה לשמור את הכתובת הזו. כדאי לנסות שוב.",
@@ -105,16 +105,16 @@ export const HE_MESSAGES: Record<string, string> = {
     "לא ניתן היה להפעיל את ה-Stack המקומי. כדאי לנסות שוב.",
   "Could not run the connection check. Try again.": "לא ניתן היה לבדוק את החיבור. כדאי לנסות שוב.",
   "Setup bridge unavailable.": "גשר ההגדרה לא זמין.",
-  "Setup could not start. Quit Rakazo and try again.":
-    "לא ניתן היה להתחיל את ההגדרה. יש לצאת מ-Rakazo ולנסות שוב.",
+  "Setup could not start. Quit Matcha bot and try again.":
+    "לא ניתן היה להתחיל את ההגדרה. יש לצאת מ-Matcha bot ולנסות שוב.",
   "Enter a server address.": "יש להזין כתובת שרת.",
   "Enter a valid http:// or https:// address.": "יש להזין כתובת http:// או https:// תקינה.",
   "Enter a valid server address. Public servers require HTTPS; a new local instance must use localhost.":
     "יש להזין כתובת שרת תקינה. שרתים ציבוריים מחייבים HTTPS; מופע מקומי חדש חייב להשתמש ב-localhost.",
   "Invalid custom headers": "כותרות מותאמות אישית לא תקינות",
-  "That address redirects elsewhere. Enter the final Rakazo server address.":
-    "הכתובת הזו מפנה למקום אחר. יש להזין את הכתובת הסופית של שרת Rakazo.",
-  "That address did not respond like a Rakazo server.": "הכתובת הזו לא הגיבה כמו שרת Rakazo.",
+  "That address redirects elsewhere. Enter the final Matcha bot server address.":
+    "הכתובת הזו מפנה למקום אחר. יש להזין את הכתובת הסופית של שרת Matcha bot.",
+  "That address did not respond like a Matcha bot server.": "הכתובת הזו לא הגיבה כמו שרת Matcha bot.",
   "The server answered with HTTP {status}.": "השרת הגיב עם HTTP {status}.",
   "Timed out reaching that address.": "תם הזמן לחיבור לכתובת הזו.",
   "Nothing is listening at that address yet.": "עדיין אין שום דבר שמאזין בכתובת הזו.",
@@ -139,8 +139,8 @@ export const HE_MESSAGES: Record<string, string> = {
     "לא ניתן היה לשמור את ההגדרה. המופע הקודם שוחזר.",
   "Connected, but could not save setup for the next launch. Try Continue again.":
     "החיבור הצליח, אבל לא ניתן היה לשמור את ההגדרה להפעלה הבאה. יש ללחוץ שוב על ״המשך״.",
-  "The app-managed Rakazo services are not ready. Retry setup.":
-    "שירותי Rakazo שהאפליקציה מנהלת אינם מוכנים. יש לנסות את ההגדרה שוב.",
+  "The app-managed Matcha bot services are not ready. Retry setup.":
+    "שירותי Matcha bot שהאפליקציה מנהלת אינם מוכנים. יש לנסות את ההגדרה שוב.",
   "Docker is installed, but Docker Compose is missing. Install Docker Desktop or the docker-compose-plugin.":
     "Docker מותקן, אבל Docker Compose חסר. יש להתקין את Docker Desktop או את docker-compose-plugin.",
   "Could not check Docker Compose. Check the output below, then retry.":
@@ -160,10 +160,10 @@ export const HE_MESSAGES: Record<string, string> = {
     "Docker הפסיק להגיב. יש להפעיל את Docker ולנסות שוב.",
   "Docker Compose is missing. Install Docker Desktop or the docker-compose-plugin, then retry.":
     "Docker Compose חסר. יש להתקין את Docker Desktop או את docker-compose-plugin ולנסות שוב.",
-  "Downloading Rakazo images failed. Check the output below, then retry.":
-    "הורדת האימג׳ים של Rakazo נכשלה. יש לעיין בפלט שלמטה ולנסות שוב.",
-  "Rakazo services did not start. Check the output below, then retry.":
-    "שירותי Rakazo לא הופעלו. יש לעיין בפלט שלמטה ולנסות שוב.",
+  "Downloading Matcha bot images failed. Check the output below, then retry.":
+    "הורדת האימג׳ים של Matcha bot נכשלה. יש לעיין בפלט שלמטה ולנסות שוב.",
+  "Matcha bot services did not start. Check the output below, then retry.":
+    "שירותי Matcha bot לא הופעלו. יש לעיין בפלט שלמטה ולנסות שוב.",
   "The stack started but the web app did not answer. Retry, and check the output below.":
     "ה-Stack הופעל, אבל אפליקציית האינטרנט לא הגיבה. יש לנסות שוב ולעיין בפלט שלמטה.",
   "Could not prepare the local stack. Retry.":
@@ -187,15 +187,15 @@ export const HE_MESSAGES: Record<string, string> = {
   "Chat Details": "פרטי הצ׳אט",
   Help: "עזרה",
   "Keyboard Shortcuts": "קיצורי מקלדת",
-  "Downloading Rakazo failed. Check the internet connection, then retry.":
-    "ההורדה של Rakazo נכשלה. בדקו את החיבור לאינטרנט ונסו שוב.",
+  "Downloading Matcha bot failed. Check the internet connection, then retry.":
+    "ההורדה של Matcha bot נכשלה. בדקו את החיבור לאינטרנט ונסו שוב.",
   "Could not move your data from Docker. Check the output below, then retry.":
     "לא ניתן להעביר את הנתונים מ-Docker. בדקו את הפלט למטה ונסו שוב.",
   "The computer runtime already running is too old. Update or quit it, then retry.":
     "סביבת ההרצה של המחשבים שכבר פועלת ישנה מדי. עדכנו או סגרו אותה ונסו שוב.",
-  "Your Rakazo data is in a different computer runtime. Quit the one running, then retry.":
-    "הנתונים שלכם ב-Rakazo נמצאים בסביבת הרצה אחרת של המחשבים. סגרו את זו שפועלת ונסו שוב.",
-  "Run Rakazo without Docker?": "להפעיל את Rakazo בלי Docker?",
+  "Your Matcha bot data is in a different computer runtime. Quit the one running, then retry.":
+    "הנתונים שלכם ב-Matcha bot נמצאים בסביבת הרצה אחרת של המחשבים. סגרו את זו שפועלת ונסו שוב.",
+  "Run Matcha bot without Docker?": "להפעיל את Matcha bot בלי Docker?",
   "Your bots and data move over. Docker is stopped, not removed.":
     "הבוטים והנתונים שלכם יועברו. Docker ייעצר, לא יוסר.",
   Move: "העברה",
@@ -204,11 +204,11 @@ export const HE_MESSAGES: Record<string, string> = {
   "Your data stays on this computer.": "הנתונים שלכם נשארים במחשב הזה.",
   "Connect to a server you or your team already run.":
     "התחברות לשרת שאתם או הצוות שלכם כבר מפעילים.",
-  "Rakazo needs Docker Desktop to run on this computer.":
-    "Rakazo צריך את Docker Desktop כדי לפעול במחשב הזה.",
-  "Rakazo needs Docker to run on this computer.": "Rakazo צריך את Docker כדי לפעול במחשב הזה.",
-  "Docker Desktop is a free app that runs Rakazo in the background. Install it and open it once.":
-    "Docker Desktop היא אפליקציה חינמית שמפעילה את Rakazo ברקע. מתקינים ופותחים אותה פעם אחת.",
+  "Matcha bot needs Docker Desktop to run on this computer.":
+    "Matcha bot צריך את Docker Desktop כדי לפעול במחשב הזה.",
+  "Matcha bot needs Docker to run on this computer.": "Matcha bot צריך את Docker כדי לפעול במחשב הזה.",
+  "Docker Desktop is a free app that runs Matcha bot in the background. Install it and open it once.":
+    "Docker Desktop היא אפליקציה חינמית שמפעילה את Matcha bot ברקע. מתקינים ופותחים אותה פעם אחת.",
   "Install Docker Engine and start it.": "מתקינים את Docker Engine ומפעילים אותו.",
   "Download Docker Desktop": "הורדת Docker Desktop",
   "Install Docker": "התקנת Docker",
@@ -217,14 +217,14 @@ export const HE_MESSAGES: Record<string, string> = {
   "Starting {app}…": "{app} מופעל…",
   "Docker is installed but not running. Start the Docker service to continue.":
     "Docker מותקן אבל לא פועל. יש להפעיל את שירות Docker כדי להמשיך.",
-  "Rakazo stopped unexpectedly.": "Rakazo נעצר באופן בלתי צפוי.",
+  "Matcha bot stopped unexpectedly.": "Matcha bot נעצר באופן בלתי צפוי.",
   Reload: "טען מחדש",
   "Mac app control": "שליטה ביישומי Mac",
   "Set up Mac app control": "הגדרת שליטה ביישומי Mac",
-  "Commands already work. To use apps, allow Accessibility and Screen Recording for Rakazo in System Settings, then restart Rakazo.":
-    "פקודות כבר פועלות. כדי להשתמש ביישומים, אפשרו ל-Rakazo גישה לנגישות ולהקלטת מסך בהגדרות המערכת, ואז הפעילו מחדש את Rakazo.",
+  "Commands already work. To use apps, allow Accessibility and Screen Recording for Matcha bot in System Settings, then restart Matcha bot.":
+    "פקודות כבר פועלות. כדי להשתמש ביישומים, אפשרו ל-Matcha bot גישה לנגישות ולהקלטת מסך בהגדרות המערכת, ואז הפעילו מחדש את Matcha bot.",
   "Open System Settings": "פתיחת הגדרות המערכת",
-  "Restart Rakazo": "הפעלה מחדש של Rakazo",
+  "Restart Matcha bot": "הפעלה מחדש של Matcha bot",
   "Not Now": "לא עכשיו",
-  "Restart Rakazo to finish setup": "הפעילו מחדש את Rakazo כדי להשלים את ההגדרה",
+  "Restart Matcha bot to finish setup": "הפעילו מחדש את Matcha bot כדי להשלים את ההגדרה",
 };

@@ -63,7 +63,7 @@ describe("renderer recovery", () => {
     expect(contents.reload).toHaveBeenCalledTimes(2);
     expect(mocks.showMessageBox).toHaveBeenCalledExactlyOnceWith(
       win,
-      expect.objectContaining({ message: "Rakazo stopped unexpectedly.", buttons: ["Reload"] }),
+      expect.objectContaining({ message: "Matcha bot stopped unexpectedly.", buttons: ["Reload"] }),
     );
   });
 

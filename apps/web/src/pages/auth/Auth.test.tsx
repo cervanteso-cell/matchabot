@@ -209,7 +209,7 @@ it("shows a configured provider beside the password form and hides the rest", as
   expect(apple.querySelector("svg")).not.toBeNull();
   expect(emailChoice.dataset.variant).toBe("outline");
   expect(emailChoice.className).toContain("w-full");
-  expect(host.textContent).toContain("Welcome to Rakazo");
+  expect(host.textContent).toContain("Welcome to Matcha bot");
   expect(host.textContent).not.toContain("account?");
   expect(host.querySelector("[data-rakazo-logo]")).not.toBeNull();
   await act(async () => google.click());
