@@ -35,7 +35,7 @@ async function mockSignedOut(page: Page, providers: typeof both | []) {
 test("sign-in offers Google and Apple before email", async ({ page }, testInfo) => {
   await mockSignedOut(page, both);
   await page.goto("/sign-in");
-  await expect(page.getByRole("heading", { name: "Welcome to Rakazo" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Welcome to Matcha bot" })).toBeVisible();
   const google = page.getByRole("button", { name: "Continue with Google" });
   const apple = page.getByRole("button", { name: "Continue with Apple" });
   const emailChoice = page.getByRole("button", { name: "Continue with email" });
@@ -94,7 +94,7 @@ test("sign-in offers Google and Apple before email", async ({ page }, testInfo) 
   await expect(emailChoice).toBeVisible();
 
   await page.goto("/sign-up");
-  await expect(page.getByRole("heading", { name: "Welcome to Rakazo" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Welcome to Matcha bot" })).toBeVisible();
   await expect(page.getByRole("button", { name: "Continue with Google" })).toBeVisible();
   await expect(page.getByRole("button", { name: "Continue with Apple" })).toBeVisible();
   await expect(page.getByRole("button", { name: "Continue with email" })).toBeVisible();
