@@ -140,8 +140,8 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "elie222",
-        "repo": "rakazo"
+        "owner": "cervanteso-cell",
+        "repo": "matchabot"
       }
     ]
   }
