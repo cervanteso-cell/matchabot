@@ -51,12 +51,35 @@ jobs:
           EXPO_PUBLIC_API_URL: https://matchabot.fr
         run: pnpm exec expo prebuild --platform android --no-install --clean
 
+      # React Native's included Gradle build resolves foojay-resolver-convention from
+      # plugins.gradle.org, which fails intermittently and kills the build in 20 seconds.
+      - name: Check the Gradle plugin portal
+        run: |
+          url="https://plugins.gradle.org/m2/org/gradle/toolchains/foojay-resolver-convention/org.gradle.toolchains.foojay-resolver-convention.gradle.plugin/1.0.0/org.gradle.toolchains.foojay-resolver-convention.gradle.plugin-1.0.0.pom"
+          for i in 1 2 3; do
+            code="$(curl -sS -o /dev/null -w '%{http_code}' "$url" || echo 000)"
+            echo "attempt $i: HTTP $code"
+            if [ "$code" = "200" ]; then exit 0; fi
+            sleep 15
+          done
+          echo "The Gradle plugin portal did not answer." >&2
+          exit 1
+
       - name: Build the release APK
         working-directory: apps/mobile/android
         env:
           EXPO_PUBLIC_API_URL: https://matchabot.fr
           GRADLE_OPTS: -Dorg.gradle.jvmargs=-Xmx4g
-        run: ./gradlew assembleRelease -PreactNativeArchitectures=arm64-v8a --no-daemon
+        run: |
+          set -uo pipefail
+          for i in 1 2 3; do
+            echo "Gradle attempt $i"
+            if ./gradlew assembleRelease -PreactNativeArchitectures=arm64-v8a --no-daemon; then
+              exit 0
+            fi
+            sleep 30
+          done
+          exit 1
 
       - name: Collect and check the APK
         id: apk
@@ -86,5 +109,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: matchabot-android-apk
-          path: ${{ steps.apk.outputs.path }}
-          if-no-files-found: warn
+          path: ${{ steps.apk.outputs.path || 'apps/mobile/android/app/build/outputs/apk/release/app-release.apk' }}
+          if-no-files-found: ignore
