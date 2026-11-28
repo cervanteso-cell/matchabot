@@ -26,6 +26,11 @@ if (dom) {
  * `pnpm test` must stay emulator-only even when a developer .env points at
  * Pi, Docker, Graphile, or live Composio. Opt-in canaries set VERIFY_PROVIDERS.
  */
+// The app defaults to the public Matcha bot server. Tests stay on loopback.
+if (!process.env.EXPO_PUBLIC_API_URL) {
+  process.env.EXPO_PUBLIC_API_URL = "http://127.0.0.1:3100";
+}
+
 if (!process.env.VERIFY_PROVIDERS) {
   process.env.RAKAZO_LIVE_MODEL_CATALOG = "off";
   process.env.AGENT_RUNTIME = "scripted";
