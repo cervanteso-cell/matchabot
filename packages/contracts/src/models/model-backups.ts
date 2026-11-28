@@ -149,7 +149,7 @@ export function connectedBackupOptions(
       options.push({
         ...option(entry),
         creditOfferingId: entry.creditOfferingId,
-        connectionName: "Rakazo credits",
+        connectionName: "Matcha bot credits",
       });
     }
     if (owners.length === 0) {

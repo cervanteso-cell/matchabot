@@ -1,11 +1,11 @@
 {
   "ios": {
-    "NSCameraUsageDescription": "Rakazo משתמשת במצלמה כדי שתוכלו לצרף תמונות להודעה לבוט.",
-    "NSPhotoLibraryUsageDescription": "Rakazo משתמשת בספריית התמונות שלכם כדי שתוכלו לצרף תמונות להודעה לבוט.",
-    "NSPhotoLibraryAddUsageDescription": "Rakazo שומרת בספריית התמונות שלכם תמונות וסרטונים שהורדתם מהתוצרים.",
-    "NSLocalNetworkUsageDescription": "Rakazo מתחברת לשרת Rakazo באירוח עצמי ברשת המקומית שלכם.",
-    "NSMicrophoneUsageDescription": "Rakazo משתמשת במיקרופון לשיחות קוליות עם הבוטים שלכם.",
-    "NSSpeechRecognitionUsageDescription": "Rakazo הופכת את הדיבור שלכם להודעות במהלך שיחות קוליות.",
-    "NSFaceIDUsageDescription": "אפשרו ל-Rakazo להשתמש ב-Face ID."
+    "NSCameraUsageDescription": "Matcha bot משתמשת במצלמה כדי שתוכלו לצרף תמונות להודעה לבוט.",
+    "NSPhotoLibraryUsageDescription": "Matcha bot משתמשת בספריית התמונות שלכם כדי שתוכלו לצרף תמונות להודעה לבוט.",
+    "NSPhotoLibraryAddUsageDescription": "Matcha bot שומרת בספריית התמונות שלכם תמונות וסרטונים שהורדתם מהתוצרים.",
+    "NSLocalNetworkUsageDescription": "Matcha bot מתחברת לשרת Matcha bot באירוח עצמי ברשת המקומית שלכם.",
+    "NSMicrophoneUsageDescription": "Matcha bot משתמשת במיקרופון לשיחות קוליות עם הבוטים שלכם.",
+    "NSSpeechRecognitionUsageDescription": "Matcha bot הופכת את הדיבור שלכם להודעות במהלך שיחות קוליות.",
+    "NSFaceIDUsageDescription": "אפשרו ל-Matcha bot להשתמש ב-Face ID."
   }
 }

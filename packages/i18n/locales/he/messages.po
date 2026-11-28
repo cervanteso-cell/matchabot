@@ -1448,8 +1448,8 @@ msgid "Allow once"
 msgstr "אישור חד-פעמי"
 
 #: apps/web/src/lib/calls/dictation.ts
-msgid "Allow Rakazo to use Speech Recognition and the microphone in System Settings."
-msgstr "יש לאפשר ל-Rakazo להשתמש בזיהוי דיבור ובמיקרופון בהגדרות המערכת."
+msgid "Allow Matcha bot to use Speech Recognition and the microphone in System Settings."
+msgstr "יש לאפשר ל-Matcha bot להשתמש בזיהוי דיבור ובמיקרופון בהגדרות המערכת."
 
 #: apps/mobile/lib/calls/call-session.ts
 #: apps/mobile/lib/composer/composer-dictation.ts
@@ -2635,8 +2635,8 @@ msgstr "בחירת תיקייה"
 
 #: apps/web/src/components/billing/CreditChoice.tsx
 #: apps/web/src/components/billing/SubscriptionGate.tsx
-msgid "Choose how to use Rakazo"
-msgstr "בחירת אופן השימוש ב-Rakazo"
+msgid "Choose how to use Matcha bot"
+msgstr "בחירת אופן השימוש ב-Matcha bot"
 
 #: apps/web/src/pages/shell/bots/agent-import.tsx
 msgid "Choose your {home} folder, or a backup of it."
@@ -3134,8 +3134,8 @@ msgstr "חברו את ה-AI שלכם"
 
 #. js-lingui-explicit-id
 #: packages/i18n/src/run-error.ts
-msgid "Connect your own API key in Models or choose Rakazo credits in Billing."
-msgstr "חבר מפתח API משלך במודלים או בחר בקרדיטים של Rakazo בחיוב."
+msgid "Connect your own API key in Models or choose Matcha bot credits in Billing."
+msgstr "חבר מפתח API משלך במודלים או בחר בקרדיטים של Matcha bot בחיוב."
 
 #. js-lingui-explicit-id
 #: packages/i18n/src/plugin-catalog.ts
@@ -5576,8 +5576,8 @@ msgid "Ends {day}"
 msgstr "מסתיים ב-{day}"
 
 #: apps/web/src/pages/shell/composer/github-star-prompt.tsx
-msgid "Enjoying Rakazo?"
-msgstr "נהנים מ-Rakazo?"
+msgid "Enjoying Matcha bot?"
+msgstr "נהנים מ-Matcha bot?"
 
 #: packages/i18n/src/user-error.ts
 msgid "Enter a password"
@@ -6334,8 +6334,8 @@ msgstr "איך לבדוק"
 
 #: apps/mobile/app/(settings)/signup-survey.tsx
 #: apps/web/src/components/account/SignupSurvey.tsx
-msgid "How will you use Rakazo?"
-msgstr "איך Rakazo ישמש אותך?"
+msgid "How will you use Matcha bot?"
+msgstr "איך Matcha bot ישמש אותך?"
 
 #: apps/mobile/components/models/compatible-endpoint-form.tsx
 msgid "http://127.0.0.1:8000/v1"
@@ -6454,8 +6454,8 @@ msgid "In use"
 msgstr "בשימוש"
 
 #: apps/mobile/app/(settings)/model-connection.tsx
-msgid "In your browser, sign in and paste this code when asked. Then return to Rakazo."
-msgstr "בדפדפן, יש להתחבר ולהדביק את הקוד הזה כשתתבקש. לאחר מכן לחזור אל Rakazo."
+msgid "In your browser, sign in and paste this code when asked. Then return to Matcha bot."
+msgstr "בדפדפן, יש להתחבר ולהדביק את הקוד הזה כשתתבקש. לאחר מכן לחזור אל Matcha bot."
 
 #: apps/web/src/pages/settings/BillingSettingsPanel.tsx
 msgid "Inactive"
@@ -8151,8 +8151,8 @@ msgid "Not in {organizationName}. They'll only see this Space."
 msgstr "לא חלק מ-{organizationName}. יוכלו לראות רק את המרחב הזה."
 
 #: apps/web/src/pages/shell/bots/import-status.ts
-msgid "Not in Rakazo's catalog"
-msgstr "לא בקטלוג של Rakazo"
+msgid "Not in Matcha bot's catalog"
+msgstr "לא בקטלוג של Matcha bot"
 
 #: apps/mobile/app/(settings)/integrations.tsx
 #: apps/web/src/pages/plugins/plugin-browse.tsx
@@ -8180,8 +8180,8 @@ msgid "Not on an HTTPS site"
 msgstr "לא באתר HTTPS"
 
 #: apps/web/src/pages/plugins/source-form.tsx
-msgid "Not reviewed by Rakazo. Only add it if you trust this address."
-msgstr "לא נבדק על ידי Rakazo. יש להוסיף רק אם הכתובת הזו מהימנה."
+msgid "Not reviewed by Matcha bot. Only add it if you trust this address."
+msgstr "לא נבדק על ידי Matcha bot. יש להוסיף רק אם הכתובת הזו מהימנה."
 
 #. js-lingui-explicit-id
 #: packages/i18n/src/vault.ts
@@ -8206,12 +8206,12 @@ msgstr "לא נשלחה. הקשה לניסיון חוזר"
 
 #: apps/web/src/pages/shell/bots/agent-import-plan.tsx
 #: apps/web/src/pages/shell/bots/import-status.ts
-msgid "Not supported in Rakazo"
-msgstr "לא נתמך ב-Rakazo"
+msgid "Not supported in Matcha bot"
+msgstr "לא נתמך ב-Matcha bot"
 
 #: apps/web/src/pages/shell/bots/agent-import-plan.tsx
-msgid "Not used by Rakazo"
-msgstr "לא בשימוש ב-Rakazo"
+msgid "Not used by Matcha bot"
+msgstr "לא בשימוש ב-Matcha bot"
 
 #. js-lingui-explicit-id
 #: packages/i18n/src/plugin-catalog.ts
@@ -8457,8 +8457,8 @@ msgstr "פתיחת הניווט"
 #: apps/web/src/pages/auth/Invite.tsx
 #: apps/web/src/pages/auth/JoinOrganization.tsx
 #: apps/web/src/pages/SharedPage.tsx
-msgid "Open Rakazo"
-msgstr "פתיחת Rakazo"
+msgid "Open Matcha bot"
+msgstr "פתיחת Matcha bot"
 
 #: apps/web/src/components/models/SubscriptionSignInSteps.tsx
 msgid "Open settings"
@@ -9104,27 +9104,27 @@ msgstr "ציטוט הבחירה"
 #: apps/mobile/app/bot-settings.tsx
 #: apps/web/src/pages/settings/AccountSettingsOverlay.tsx
 #: apps/web/src/pages/shell/bots/avatar-studio-popover.tsx
-msgid "Rakazo"
-msgstr "Rakazo"
+msgid "Matcha bot"
+msgstr "Matcha bot"
 
 #: apps/mobile/app/(settings)/billing.tsx
 #: apps/mobile/components/models/model-role-settings.tsx
 #: apps/web/src/pages/model-settings/ModelRoleSettings.tsx
 #: apps/web/src/pages/onboarding/use-onboarding-model.ts
-msgid "Rakazo credits"
-msgstr "קרדיטים של Rakazo"
+msgid "Matcha bot credits"
+msgstr "קרדיטים של Matcha bot"
 
 #: apps/mobile/lib/billing/self-hosted-support.ts
-msgid "Rakazo is free to self-host. If you'd like to support it, subscribers can email support@rakazo.com for help."
-msgstr "Rakazo זמין לאירוח עצמי בחינם. אם ברצונך לתמוך בו, מנויים יכולים לפנות לעזרה בכתובת support@rakazo.com."
+msgid "Matcha bot is free to self-host. If you'd like to support it, subscribers can email support@rakazo.com for help."
+msgstr "Matcha bot זמין לאירוח עצמי בחינם. אם ברצונך לתמוך בו, מנויים יכולים לפנות לעזרה בכתובת support@rakazo.com."
 
 #: apps/web/src/components/models/ProviderSettingsForm.tsx
-msgid "rakazo-shared and IDs starting with bot- are reserved for Rakazo."
-msgstr "rakazo-shared ומזהים שמתחילים ב-bot- שמורים ל-Rakazo."
+msgid "rakazo-shared and IDs starting with bot- are reserved for Matcha bot."
+msgstr "rakazo-shared ומזהים שמתחילים ב-bot- שמורים ל-Matcha bot."
 
 #: apps/mobile/app/(settings)/account.tsx
-msgid "Rate Rakazo"
-msgstr "דירוג Rakazo"
+msgid "Rate Matcha bot"
+msgstr "דירוג Matcha bot"
 
 #: apps/mobile/components/thread/message-row.tsx
 #: apps/web/src/pages/shell/chat/message-hover-actions.tsx
@@ -9178,8 +9178,8 @@ msgid "Recall from banks"
 msgstr "שליפה ממאגרים"
 
 #: apps/web/src/components/models/ProviderSettingsForm.tsx
-msgid "Recall from this peer; save to Rakazo’s own peers."
-msgstr "שליפה מהעמית הזה; שמירה בעמיתים של Rakazo."
+msgid "Recall from this peer; save to Matcha bot’s own peers."
+msgstr "שליפה מהעמית הזה; שמירה בעמיתים של Matcha bot."
 
 #: apps/web/src/components/models/ProviderSettingsForm.tsx
 msgid "Recall only"
@@ -9858,8 +9858,8 @@ msgstr "חזרה לתיבת הדואר הנכנס"
 
 #: apps/web/src/pages/integrations/McpOAuthCallback.tsx
 #: apps/web/src/pages/integrations/SlackInstallCallback.tsx
-msgid "Return to Rakazo"
-msgstr "חזרה ל-Rakazo"
+msgid "Return to Matcha bot"
+msgstr "חזרה ל-Matcha bot"
 
 #: apps/mobile/app/page.tsx
 #: apps/web/src/components/pages/PageViewHost.tsx
@@ -10739,8 +10739,8 @@ msgstr "יש להתחבר ב-{host} ואז להדביק כאן את הקוד ש�
 
 #: apps/mobile/app/sign-in.tsx
 #: apps/web/src/pages/auth/Auth.tsx
-msgid "Sign in to Rakazo"
-msgstr "התחברות ל-Rakazo"
+msgid "Sign in to Matcha bot"
+msgstr "התחברות ל-Matcha bot"
 
 #: packages/i18n/src/user-error.ts
 msgid "Sign in to your account, then link this provider in settings"
@@ -10770,8 +10770,8 @@ msgid "Sign up"
 msgstr "הרשמה"
 
 #: apps/mobile/app/sign-in.tsx
-msgid "Sign up for Rakazo"
-msgstr "הרשמה ל-Rakazo"
+msgid "Sign up for Matcha bot"
+msgstr "הרשמה ל-Matcha bot"
 
 #: apps/web/src/pages/plugins/PluginsOverlay.tsx
 msgid "Sign-in cancelled. Retry in Manage MCP servers."
@@ -11126,8 +11126,8 @@ msgid "Start recording"
 msgstr "התחלת הקלטה"
 
 #: apps/mobile/app/paywall.tsx
-msgid "Start using Rakazo"
-msgstr "התחלת שימוש ב-Rakazo"
+msgid "Start using Matcha bot"
+msgstr "התחלת שימוש ב-Matcha bot"
 
 #: apps/mobile/app/(settings)/billing.tsx
 #: apps/web/src/components/billing/ModelCredits.tsx
@@ -11293,8 +11293,8 @@ msgstr "תמיכה תמורת $25 לחודש"
 
 #: apps/mobile/app/(settings)/account.tsx
 #: apps/mobile/lib/billing/self-hosted-support.ts
-msgid "Support Rakazo"
-msgstr "תמיכה ב-Rakazo"
+msgid "Support Matcha bot"
+msgstr "תמיכה ב-Matcha bot"
 
 #: apps/mobile/app/(settings)/model-settings.tsx
 #: apps/web/src/pages/model-settings/model-settings-panel.tsx
@@ -11449,8 +11449,8 @@ msgid "That isn't a Grok Bot export. Paste the Bot's whole reply."
 msgstr "זה לא ייצוא של בוט Grok. יש להדביק את כל התשובה של הבוט."
 
 #: apps/mobile/lib/api/endpoint.ts
-msgid "That URL did not look like a Rakazo server"
-msgstr "הכתובת הזו לא נראית כמו שרת Rakazo"
+msgid "That URL did not look like a Matcha bot server"
+msgstr "הכתובת הזו לא נראית כמו שרת Matcha bot"
 
 #: apps/mobile/lib/api/endpoint.ts
 msgid "That URL is missing a host"
@@ -11591,8 +11591,8 @@ msgstr "הקישור המשותף יפסיק לעבוד"
 
 #: apps/mobile/app/meeting-transcript.tsx
 #: apps/web/src/pages/shell/meetings/meeting-transcript.tsx
-msgid "The transcript will be removed from Rakazo."
-msgstr "התמליל יוסר מ-Rakazo."
+msgid "The transcript will be removed from Matcha bot."
+msgstr "התמליל יוסר מ-Matcha bot."
 
 #: apps/mobile/app/(settings)/billing.tsx
 #: apps/web/src/components/billing/ModelCredits.tsx
@@ -11760,8 +11760,8 @@ msgid "This draft isn't available"
 msgstr "הטיוטה הזו אינה זמינה"
 
 #: apps/web/src/lib/bots/agent-import-errors.ts
-msgid "This export is newer than Rakazo can read. Update Rakazo and try again."
-msgstr "הייצוא הזה חדש מדי בשביל Rakazo. יש לעדכן את Rakazo ולנסות שוב."
+msgid "This export is newer than Matcha bot can read. Update Matcha bot and try again."
+msgstr "הייצוא הזה חדש מדי בשביל Matcha bot. יש לעדכן את Matcha bot ולנסות שוב."
 
 #: apps/web/src/lib/bots/agent-import-errors.ts
 msgid "This export is too large to import."
@@ -11935,8 +11935,8 @@ msgstr "למרחב הזה יש כספת משלו. הבוטים שלו שומרי
 
 #: apps/mobile/app/(settings)/model-connection.tsx
 #: apps/web/src/pages/model-settings/connection-controls.tsx
-msgid "This subscription sign-in is not available in Rakazo yet. Use a deployment credential or choose another provider."
-msgstr "התחברות עם המנוי הזה עדיין לא זמינה ב-Rakazo. אפשר להשתמש בפרטי גישה של ההתקנה או לבחור ספק אחר."
+msgid "This subscription sign-in is not available in Matcha bot yet. Use a deployment credential or choose another provider."
+msgstr "התחברות עם המנוי הזה עדיין לא זמינה ב-Matcha bot. אפשר להשתמש בפרטי גישה של ההתקנה או לבחור ספק אחר."
 
 #: apps/mobile/app/(settings)/bot-template.tsx
 msgid "This template is no longer available."
@@ -12388,8 +12388,8 @@ msgid "Update progress"
 msgstr "התקדמות העדכון"
 
 #: apps/web/src/lib/integrations/meeting-calendar-connect.ts
-msgid "Update Rakazo to connect your calendar from the desktop app."
-msgstr "יש לעדכן את Rakazo כדי לחבר את היומן מאפליקציית שולחן העבודה."
+msgid "Update Matcha bot to connect your calendar from the desktop app."
+msgstr "יש לעדכן את Matcha bot כדי לחבר את היומן מאפליקציית שולחן העבודה."
 
 #: apps/mobile/lib/api/client-update.ts
 #: apps/web/src/lib/platform/client-update.ts
@@ -12560,8 +12560,8 @@ msgstr "לסיסמאות יש להשתמש בקלט מוגן."
 
 #: apps/mobile/app/(settings)/billing.tsx
 #: apps/web/src/components/billing/ModelCredits.tsx
-msgid "Use Rakazo credits"
-msgstr "שימוש בקרדיטים של Rakazo"
+msgid "Use Matcha bot credits"
+msgstr "שימוש בקרדיטים של Matcha bot"
 
 #: apps/mobile/components/settings/space-bots-model.tsx
 msgid "Use space default"
@@ -12815,8 +12815,8 @@ msgstr "ברוכים השבים"
 #: apps/mobile/app/(settings)/_layout.tsx
 #: apps/mobile/app/sign-in.tsx
 #: apps/web/src/components/account/SignupSurvey.tsx
-msgid "Welcome to Rakazo"
-msgstr "ברוכים הבאים ל-Rakazo"
+msgid "Welcome to Matcha bot"
+msgstr "ברוכים הבאים ל-Matcha bot"
 
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
 msgid "What about its memories?"
@@ -12828,8 +12828,8 @@ msgstr "במה המרחב הזה יכול להשתמש?"
 
 #: apps/mobile/app/(settings)/signup-survey.tsx
 #: apps/web/src/components/account/SignupSurvey.tsx
-msgid "What do you most want Rakazo to help with?"
-msgstr "במה הכי חשוב לך ש-Rakazo יעזור?"
+msgid "What do you most want Matcha bot to help with?"
+msgstr "במה הכי חשוב לך ש-Matcha bot יעזור?"
 
 #: apps/web/src/pages/shell/chat/message-cards.tsx
 msgid "What do you want me on first?"

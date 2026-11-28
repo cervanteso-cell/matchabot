@@ -375,9 +375,9 @@ class StartFailure extends Error {
 }
 
 const downloadFailed = () =>
-  t("Downloading Rakazo failed. Check the internet connection, then retry.");
+  t("Downloading Matcha bot failed. Check the internet connection, then retry.");
 const servicesFailed = () =>
-  t("Rakazo services did not start. Check the output below, then retry.");
+  t("Matcha bot services did not start. Check the output below, then retry.");
 
 export class NativeStackController extends StackLifecycle {
   private background: AbortController | null = null;
@@ -719,7 +719,7 @@ export class NativeStackController extends StackLifecycle {
     let existing = await this.inspectDatabase(cli, signal);
     if (existing === null && ports.database !== undefined && ports.database !== holder) {
       throw new StartFailure(
-        t("Your Rakazo data is in a different computer runtime. Quit the one running, then retry."),
+        t("Your Matcha bot data is in a different computer runtime. Quit the one running, then retry."),
       );
     }
     if (ports.database === undefined) {

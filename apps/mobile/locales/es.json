@@ -1,11 +1,11 @@
 {
   "ios": {
-    "NSCameraUsageDescription": "Rakazo usa la cámara para que puedas adjuntar fotos a un mensaje para un bot.",
-    "NSPhotoLibraryUsageDescription": "Rakazo usa tu fototeca para que puedas adjuntar imágenes a un mensaje para un bot.",
-    "NSPhotoLibraryAddUsageDescription": "Rakazo guarda en tu fototeca las fotos y los vídeos que descargas de Artefactos.",
-    "NSLocalNetworkUsageDescription": "Rakazo se conecta a un servidor de Rakazo autoalojado en tu red local.",
-    "NSMicrophoneUsageDescription": "Rakazo usa el micrófono para las llamadas de voz con tus bots.",
-    "NSSpeechRecognitionUsageDescription": "Rakazo convierte lo que dices en mensajes durante las llamadas de voz.",
-    "NSFaceIDUsageDescription": "Permite que Rakazo acceda a tus datos biométricos de Face ID."
+    "NSCameraUsageDescription": "Matcha bot usa la cámara para que puedas adjuntar fotos a un mensaje para un bot.",
+    "NSPhotoLibraryUsageDescription": "Matcha bot usa tu fototeca para que puedas adjuntar imágenes a un mensaje para un bot.",
+    "NSPhotoLibraryAddUsageDescription": "Matcha bot guarda en tu fototeca las fotos y los vídeos que descargas de Artefactos.",
+    "NSLocalNetworkUsageDescription": "Matcha bot se conecta a un servidor de Matcha bot autoalojado en tu red local.",
+    "NSMicrophoneUsageDescription": "Matcha bot usa el micrófono para las llamadas de voz con tus bots.",
+    "NSSpeechRecognitionUsageDescription": "Matcha bot convierte lo que dices en mensajes durante las llamadas de voz.",
+    "NSFaceIDUsageDescription": "Permite que Matcha bot acceda a tus datos biométricos de Face ID."
   }
 }

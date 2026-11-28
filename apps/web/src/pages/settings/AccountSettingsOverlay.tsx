@@ -353,7 +353,7 @@ export function GeneralSettingsPanels({
                     value="rakazo"
                     className="text-body-sm aria-pressed:bg-background aria-pressed:shadow-sm"
                   >
-                    <Trans>Rakazo</Trans>
+                    <Trans>Matcha bot</Trans>
                   </ToggleGroupItem>
                 </ToggleGroup>
                 {botStyleError ? (

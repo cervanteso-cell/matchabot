@@ -87,7 +87,7 @@ export interface MessagingPlatform {
   /**
    * The adapter's own thread-id prefix when it differs from `provider`, so
    * one adapter type can mount more than once (one Telegram bot per space:
-   * "telegram-work"). Rakazo only ever sees `provider`-prefixed thread ids;
+   * "telegram-work"). Matcha bot only ever sees `provider`-prefixed thread ids;
    * the adapter keeps its native ones. Defaults to `provider`.
    */
   adapterName?: string;
@@ -144,7 +144,7 @@ export interface MessagingPlatform {
    */
   acceptsGroup?: (raw: unknown) => boolean;
   /**
-   * Rewrites the adapter's native thread id for Rakazo thread identity when
+   * Rewrites the adapter's native thread id for Matcha bot thread identity when
    * the SDK's granularity differs from the platform's conversations: Telegram
    * marks a non-forum reply with the reply root as its message thread id,
    * which is still the group's own conversation.
@@ -728,7 +728,7 @@ export function providerOfThreadId(threadId: string): string {
   return threadId.split(":", 1)[0]?.split("~", 1)[0] ?? "";
 }
 
-/** Adapter-native thread id ("telegram:42") → Rakazo thread id ("telegram-work:42"). */
+/** Adapter-native thread id ("telegram:42") → Matcha bot thread id ("telegram-work:42"). */
 function toProviderThreadId(mounted: MountedPlatform, threadId: string): string {
   const { provider } = mounted.platform;
   if (mounted.adapterName === provider) return threadId;
@@ -736,7 +736,7 @@ function toProviderThreadId(mounted: MountedPlatform, threadId: string): string 
   return threadId.startsWith(prefix) ? `${provider}:${threadId.slice(prefix.length)}` : threadId;
 }
 
-/** Rakazo thread id → the id the platform's adapter and Chat instance expect. */
+/** Matcha bot thread id → the id the platform's adapter and Chat instance expect. */
 function toAdapterThreadId(mounted: MountedPlatform, threadId: string): string {
   const { provider } = mounted.platform;
   if (mounted.adapterName === provider) return threadId;

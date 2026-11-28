@@ -1,11 +1,11 @@
 {
   "ios": {
-    "NSCameraUsageDescription": "Rakazo gebruikt de camera zodat je foto's kunt toevoegen aan een bericht aan een bot.",
-    "NSPhotoLibraryUsageDescription": "Rakazo gebruikt je fotobibliotheek zodat je afbeeldingen kunt toevoegen aan een bericht aan een bot.",
-    "NSPhotoLibraryAddUsageDescription": "Rakazo bewaart foto's en video's die je uit Artefacten downloadt in je fotobibliotheek.",
-    "NSLocalNetworkUsageDescription": "Rakazo maakt verbinding met een zelfgehoste Rakazo-server op je lokale netwerk.",
-    "NSMicrophoneUsageDescription": "Rakazo gebruikt de microfoon voor spraakgesprekken met je bots.",
-    "NSSpeechRecognitionUsageDescription": "Rakazo zet je spraak om in berichten tijdens spraakgesprekken.",
-    "NSFaceIDUsageDescription": "Sta Rakazo toe Face ID te gebruiken."
+    "NSCameraUsageDescription": "Matcha bot gebruikt de camera zodat je foto's kunt toevoegen aan een bericht aan een bot.",
+    "NSPhotoLibraryUsageDescription": "Matcha bot gebruikt je fotobibliotheek zodat je afbeeldingen kunt toevoegen aan een bericht aan een bot.",
+    "NSPhotoLibraryAddUsageDescription": "Matcha bot bewaart foto's en video's die je uit Artefacten downloadt in je fotobibliotheek.",
+    "NSLocalNetworkUsageDescription": "Matcha bot maakt verbinding met een zelfgehoste Matcha bot-server op je lokale netwerk.",
+    "NSMicrophoneUsageDescription": "Matcha bot gebruikt de microfoon voor spraakgesprekken met je bots.",
+    "NSSpeechRecognitionUsageDescription": "Matcha bot zet je spraak om in berichten tijdens spraakgesprekken.",
+    "NSFaceIDUsageDescription": "Sta Matcha bot toe Face ID te gebruiken."
   }
 }
