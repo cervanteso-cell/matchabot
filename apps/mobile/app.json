@@ -174,6 +174,7 @@
       "policy": "appVersion"
     },
     "updates": {
+      "enabled": false,
       "url": "https://u.expo.dev/07f7eb04-45e3-47fe-9374-99a2f991131e"
     }
   }
